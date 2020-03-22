@@ -1,3 +1,4 @@
+![CI](https://github.com/OKTAYKIR/EFCoreAuditing/workflows/CI/badge.svg)
 # EFCoreAuditing
 A Library for EntityFrameworkCore to support automatically recording data changes history (audit logging), soft-delete, and Snakecase naming convention functionality.
 
