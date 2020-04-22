@@ -3,10 +3,16 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <Authors>Oktay Kır</Authors>
-    <PackageProjectUrl>https://github.com/OKTAYKIR</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/OKTAYKIR/EFCoreAuditing</PackageProjectUrl>
     <RepositoryUrl>https://github.com/OKTAYKIR/EFCoreAuditing</RepositoryUrl>
     <Company>Oktay Kır</Company>
-    <AssemblyName>EFCoreAuditing</AssemblyName>
+    <AssemblyName>EFAuditing</AssemblyName>
+    <Description>A Library for EntityFrameworkCore to support automatically recording data changes history (audit logging), soft-delete, and Snakecase naming convention functionality.</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageTags>audit auditing auditlog efcore code-first auditlog history EF EntityFramework snakecase camelcase</PackageTags>
+    <PackageId>EFCore.Auditing</PackageId>
+    <Product>EFAuditing</Product>
+    <RootNamespace>EFAuditing</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
