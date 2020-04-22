@@ -1,8 +1,18 @@
-![CI](https://github.com/OKTAYKIR/EFCoreAuditing/workflows/CI/badge.svg)
 # EFCoreAuditing
+![Build Status](https://github.com/OKTAYKIR/EFCoreAuditing/workflows/CI/badge.svg)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#contributing)
+[![nuget](https://img.shields.io/nuget/v/EFCore.Auditing)](https://www.nuget.org/packages/EFCore.Auditing/)
+
 A Library for EntityFrameworkCore to support automatically recording data changes history (audit logging), soft-delete, and Snakecase naming convention functionality.
 
-### How to use
+## Installation
+EFCore.Auditing is available on [NuGet](https://www.nuget.org/packages/EFCore.Auditing/). 
+
+```sh
+dotnet add package EFCore.Auditing
+```
+
+## How to use
 EFCoreAuditing will recording all the data changing history in one table named 'Audit'.
 
 ###### 1. Enable Audit log with using AuditLogDbContext
