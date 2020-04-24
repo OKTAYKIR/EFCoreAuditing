@@ -12,7 +12,7 @@ EFCore.Auditing is available on [NuGet](https://www.nuget.org/packages/EFCore.Au
 dotnet add package EFCore.Auditing
 ```
 
-## How to use
+## 🚀 How to use
 EFCoreAuditing will recording all the data changing history in one table named 'Audit'.
 
 ###### 1. Enable Audit log with using AuditLogDbContext
@@ -38,9 +38,15 @@ public class UserDbContext : AuditLogDbContext<Guid>
 }
 ```
 
-## Contributing
+## 🤝 Contributing
 1. Fork it ( https://github.com/OKTAYKIR/EFCoreAuditing/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create a new Pull Request  
+
+## Show your support
+Please ⭐️ this repository if this project helped you!
+
+## 📝 License
+MIT License
