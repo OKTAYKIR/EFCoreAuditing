@@ -5,7 +5,7 @@
 
 A Library for EntityFrameworkCore to support automatically recording data changes history (audit logging), soft-delete, and Snakecase naming convention functionality.
 
-## Installation
+## :package: Installation
 EFCore.Auditing is available on [NuGet](https://www.nuget.org/packages/EFCore.Auditing/). 
 
 ```sh
