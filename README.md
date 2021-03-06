@@ -1,4 +1,6 @@
 # EFCoreAuditing
+![Hits](https://hitcounter.pythonanywhere.com/count/tag.svg?url=https://github.com/OKTAYKIR/EFCoreAuditing)
+![GitHub issues](https://img.shields.io/github/issues/OKTAYKIR/EFCoreAuditing)
 ![Build Status](https://github.com/OKTAYKIR/EFCoreAuditing/workflows/CI/badge.svg)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#contributing)
 [![nuget](https://img.shields.io/nuget/v/EFCore.Auditing)](https://www.nuget.org/packages/EFCore.Auditing/)
@@ -37,6 +39,9 @@ public class UserDbContext : AuditLogDbContext<Guid>
     }
 }
 ```
+
+## ✨ Contributors
+![GitHub Contributors Image](https://contrib.rocks/image?repo=OKTAYKIR/EFCoreAuditing)
 
 ## 🤝 Contributing
 1. Fork it ( https://github.com/OKTAYKIR/EFCoreAuditing/fork )
