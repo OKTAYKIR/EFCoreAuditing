@@ -18,7 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\EFCoreAuditing\EFCoreAuditing.csproj" />
+    <ProjectReference Include="..\..\EFCoreAuditing\EFCoreAuditing.csproj" />
   </ItemGroup>
 
 
